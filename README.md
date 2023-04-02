@@ -412,7 +412,7 @@ func (net Network) Predict(inputData []float64) mat.Matrix {
 
 We start off with the inputs first, by creating a matrix called `inputs` to represent the input values. Next we find the inputs to hidden layer by applying the dot product between the hidden weights and the inputs, creating a matrix called `hiddenInputs`. In other words, given a 2 neuron input layer and a 3 neuron hidden layer, this is what we get:
 
-![](imgs/matrix.png)
+![](imgs/matrix2.png)
 
 Next, we apply our activation function, `sigmoid`  on the hidden inputs to produce `hiddenOutputs`.
 
